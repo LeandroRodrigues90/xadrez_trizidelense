@@ -130,16 +130,20 @@ h1,h2,h3{
     color: var(--cor3);
 }
 footer{
+    padding: 20px;
     background-color: var(--cor3);
     color: var(--cor6);
-    height: 150px;
+    height: 100px;
     text-align: center;
 
 }
-footer>p{
+footer a{
+    margin: 10px;
     padding-top: 15px;
 }
-
+footer p{
+    padding-top: 30px;
+}
 .redes_sociais{
 
     background-color: var(--cor6);
@@ -147,17 +151,12 @@ footer>p{
     
 }
 
-.redes_sociais>img{
-    width: 25px;
-    height: 25px;
-    padding: 10px;
-}
-
 ul{
     padding-left: 15px;
     padding-top: 10px;
 }
 ul>li{
+    list-style-type: '\265E';
     padding-left: 5px;
     padding-top: 10px;
     text-align: justify;
