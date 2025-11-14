@@ -33,7 +33,14 @@ nav a:hover{
     color: var(--cor0);
     border-radius: 10px;
 }
-
+header>h1{
+    color:var(--cor6);
+    font-family: var(--fonte-padrao);
+    text-shadow: 3px 4px 7px #26010180;
+    text-align: left;
+    font-size: 3em;
+    padding: 15px;
+}
 h1{
     color:var(--cor6);
     font-family: var(--fonte-padrao);
