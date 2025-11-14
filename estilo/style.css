@@ -34,21 +34,20 @@ nav a:hover{
     border-radius: 10px;
 }
 
-header>h1{
+h1{
     color:var(--cor6);
-    font-family: var(--fonte-destaque);
-    text-align: left;
-    text-shadow: -4px 5px 4px rgb(13 13 3 / 34%);
-    font-size: 3em;
-    padding: 20px;
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    font-size: 1.7em;
+    padding: 15px;
 }
-header>h3{
+h3{
     
     color: var(--cor6);
     font-family: var(--fonte-padrao);
     margin: auto;
     text-align: center;
-    font-size: 1.1em;
+    font-size: 2em;
     padding-top: 10px;
 }
 header>p{
