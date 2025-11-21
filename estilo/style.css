@@ -89,28 +89,34 @@ header>nav{
 }
 
 body{
-    background-color: var(--cor6);
+    
     font-family:var(--fonte-padrao);
+    
+}
+article{
+    background-color: var(--cor6);  
+    
 }
 
 
 main{
-    margin-top: 10px;
+    margin: auto;
     text-align: justify;
     min-height: 320px;
     max-width: 900px;
     padding: 25px;
-    margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.351);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-   
+    
 }
 main>h1{
     font-family: var(--fonte-destaque);
-    
+   
+
 }
 main p{
+    margin: 20px;
     text-indent: 30px;
     text-align: justify;
     font-size: 1em;
@@ -128,7 +134,11 @@ main a:hover{
     text-decoration: underline;
     color: var(--cor6);
 }
+main h3{
+    margin: 20px;
+}
 main h2{
+    margin: 20px;
     background-image: linear-gradient(to right, var(--cor5),var(--cor6));
     padding: 2px 6px;
     border-radius: 10px;
@@ -161,6 +171,7 @@ footer p{
 ul{
     padding-left: 15px;
     padding-top: 10px;
+    margin: 20px;
 }
 ul>li{
     list-style-type: '\265E';
@@ -172,7 +183,7 @@ ul>li{
 
 .video{
     background-color: var(--cor1);
-    margin: 0px -20px 30px -20px;
+    margin: 0px 0px 30px 0px;
     padding: 20px;
     padding-bottom: 58%;
     position: relative;
