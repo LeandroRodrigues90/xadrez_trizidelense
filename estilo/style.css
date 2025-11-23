@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-
+/*root para guardar as informações padrao do arquivo do site*/
 
 :root{
     --cor0:#260101;
@@ -139,6 +139,7 @@ main h3{
 }
 main h2{
     margin: 20px;
+    text-align: left;
     background-image: linear-gradient(to right, var(--cor5),var(--cor6));
     padding: 2px 6px;
     border-radius: 10px;
